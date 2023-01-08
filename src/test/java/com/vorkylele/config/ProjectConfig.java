@@ -1,0 +1,11 @@
+package com.vorkylele.config;
+
+import org.aeonbits.owner.Config;
+
+@Config.Sources({"classpath:default.properties"})
+public interface ProjectConfig extends Config {
+
+    @Key("base.uri")
+    @DefaultValue("https://qa-scooter.praktikum-services.ru")
+    String getBaseUriProperties();
+}
