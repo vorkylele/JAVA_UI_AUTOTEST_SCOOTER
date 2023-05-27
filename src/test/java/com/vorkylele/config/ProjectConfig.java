@@ -8,4 +8,8 @@ public interface ProjectConfig extends Config {
     @Key("base.uri")
     @DefaultValue("https://qa-scooter.praktikum-services.ru")
     String getBaseUriProperties();
+
+    @Key("browser")
+    @DefaultValue("FIREFOX")
+    Browser getBrowser();
 }

@@ -34,8 +34,10 @@ public class StartPage {
 
     // Actions
     @Step("Принять куки")
-    public StartPage clickAcceptCookieBtn() {
-        acceptCookieBtn.click();
+    public StartPage checkCookieBtn() {
+        if(acceptCookieBtn.isDisplayed()){
+            acceptCookieBtn.click();
+        }
 
         return this;
     }

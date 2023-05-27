@@ -17,7 +17,6 @@ public class DropDownListTest extends BaseTest {
     @Test
     public void dropDownListCheckAllTextSuccessResult() {
         startPage
-                .clickAcceptCookieBtn()
                 .checkTextOfFirstDropDownList(EXPECTED_FIRST_TEXT_DROP_DOWN_LIST)
                 .checkTextOfSecondDropDownList(EXPECTED_SECOND_TEXT_DROP_DOWN_LIST)
                 .checkTextOfThirdDropDownList(EXPECTED_THIRD_TEXT_DROP_DOWN_LIST)

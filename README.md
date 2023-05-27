@@ -4,7 +4,7 @@
 
 #### Запуск тестов
 ```sh
-mvn clean test
+mvn clean testц
 ```
 
 ---
